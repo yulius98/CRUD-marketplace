@@ -89,64 +89,64 @@
 </div>
 
 <!-- Tambahkan Modal Form sebelum tag script -->
-<div id="addModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 hidden overflow-y-auto h-full w-full">
-    <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+<div id="addModal" class="fixed inset-0 bg-blue-800 bg-opacity-10 hidden overflow-y-auto h-full w-full">
+    <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-blue-50">
         <div class="mt-3">
             <h3 class="text-lg font-medium leading-6 text-gray-900 mb-4">Tambah/Edit Produk</h3>
             <form id="productForm" class="space-y-4">
                 <input type="hidden" id="productId">
                 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700">Kategori</label>
+                    <label class="block text-sm font-bold text-black">Kategori</label>
                     <input type="text" id="kategori" name="kategori" required 
-                           class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                           class="mt-1 block w-full rounded-md shadow-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700">Nama Produk</label>
+                    <label class="block text-sm font-bold text-black">Nama Produk</label>
                     <input type="text" id="produk" name="produk" required 
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700">Deskripsi</label>
+                    <label class="block text-sm font-bold text-black">Deskripsi</label>
                     <textarea id="description" name="description" required 
                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700">Jumlah</label>
+                    <label class="block text-sm font-bold text-black">Jumlah</label>
                     <input type="number" id="jumlah" name="jumlah" required 
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700">Harga</label>
+                    <label class="block text-sm font-bold text-black">Harga</label>
                     <input type="number" id="harga" name="harga" required 
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700">Link Pembelian</label>
+                    <label class="block text-sm font-bold text-black">Link Pembelian</label>
                     <input type="url" id="link" name="link" required 
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700">URL Gambar</label>
+                    <label class="block text-sm font-bold text-black">URL Gambar</label>
                     <input type="url" id="img" name="img" required 
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700">Harga Diskon (Jika Ada)</label>
+                    <label class="block text-sm font-bold text-black">Harga Diskon (Jika Ada)</label>
                     <input type="number" id="harga_diskon" name="harga_diskon" 
                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
                 </div>
 
                 <div class="flex items-center">
                     <input type="checkbox" id="produk_diskon" name="produk_diskon" 
-                           class="rounded border-gray-300 text-blue-600 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                           class="rounded border-gray-300 font-bold text-black shadow-sm focus:border-blue-500 focus:ring-blue-500">
                     <label class="ml-2 block text-sm text-gray-900">Status Diskon</label>
                 </div>
 
@@ -156,7 +156,7 @@
                         Batal
                     </button>
                     <button type="submit" 
-                            class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+                            class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700">
                         Simpan
                     </button>
                 </div>
